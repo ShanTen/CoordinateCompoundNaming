@@ -45,7 +45,7 @@ Types of Err to add:
     5) Unknown dentacity err
 
 To Fix:
-    * Oxidation State function
+    
 
 To Do:
     * Add error handling to the parser
@@ -57,6 +57,7 @@ Done:
     * Naming class/Name the compound
     [FIX] Ligand list isnt getting sorted 
     [FIX] correct   spa cing 
+    [FIX] Oxidation State function
 
 Idea/Scope Changes:    
     * Learn How to parse [Cation][Anion] -- do at the end for double complex nam

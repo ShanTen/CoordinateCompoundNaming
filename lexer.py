@@ -435,23 +435,26 @@ class CoordinateCompound_Simple:
 
     def getOxState(self):
         ligs = self.parseObj["Ligands"]
-        totalCharge = 0
+        totalLigandCharge = 0
         for vex in ligs:
             name = vex[0]
             count = vex[1]
             charge = self.searchLigandObject(name)["Charge"]
-            totalCharge += count*charge
+            totalLigandCharge += count*charge
             #denticity = self.searchLigandObject(name).Denticity
 
         if self.parseObj["Anion"]:
             bing = self.parseObj["AnionCount"] * self.searchLigandObject(self.parseObj["Anion"])["Charge"]
-            totalCharge += bing
+            totalLigandCharge += bing
         if self.parseObj["Cation"]: #FIX Get data of all cations
-            totalCharge += self.parseObj["CationCount"] * 1 #temp value for all cations
-        if self.parseObj["IonCompVal"]:
-            totalCharge += self.parseObj["IonCompVal"]
+            totalLigandCharge += self.parseObj["CationCount"] * 1 #temp value for all cations
 
-        self.OxState = -totalCharge
+        self.OxState = -totalLigandCharge
+
+        if self.parseObj["IonCompVal"]:
+            self.OxState = self.parseObj["IonCompVal"] - totalLigandCharge
+
+
         lexInstance.print(f"Predicted Ox State of Metal is: {self.OxState}")
 
     def verify(self):

@@ -1,0 +1,72 @@
+Hi nomenclature of coordinate compounds are not structure dependant and waaaayyyy more funnnn
+
+Haxx: For user defined ligands and complex/compound ligands put that shiz in {} 15-03-22
+
+#   Formula 	            Name     	                                   CN ON
+1. 	[Co(NH3)6]Cl3    		hexaamminecobalt (III) chloride  		        6 +3
+2. 	K[Au(Cl)4] 		        Potassium tetrachloroaurate(III) 		        4 +3
+3. 	Cu2[Fe(CN)6] 		    copper(II) hexacyanoferrate(II)  		        6 +2
+4. 	[Pt(NH3)6]Cl4 		    hexaammineplatinum(IV) chloride  		        6 +4
+5. 	[Cu(NH3)4(H2O)2]Cl2 	tetraamminediaquacopper(II) chloride 		    6 +2
+6. 	[Cr(CO)6] 		        hexacarbonylchromium (0) 			            6 +0
+7. 	K3[CoF6]		        potassium hexafluorocobaltate(III) 		        6 +3
+8. 	[Pt{en}2]CO3 		    bis(ethylenediamine)platinum(II) carbonate 	    4 +2
+9. 	[Ni(H2O)6]Cl2 		    hexaaquanickel(II) chloride 			        6 +2
+10 	[Zn{en}F2] 		        (ethylenediamine)difluorozinc 			        4 +2
+11. [Cr(NH3)5(NO2)]2+ 	    pentaamminenitritochromium(III) ion 		    6 +3
+12. Ba[FeBr4] 		        barium tetrabromoferrate(III) 			        4 +3
+13. [Co(en)2Br2]SO4 	    dibromobis(ethylenediamine)cobalt(III) sulfate 	6 +3
+14. [Ag(NH3)2]Cl 		    diamminesilver chloride 			            2 +1
+15. [Cu(CN)4]3-	            tetracyanocuprate(I) ion 				        4 +1
+16. K[Pt(NH3)Cl5] 	        potassium amminepentachloroplatinate (IV) 		6 +4
+17. [Al(H2O)6]Br3           Hexaaquaaluminum (III) bromide
+18. [Cr(NH3)6]Cl3           Hexaamminechromium (III) chloride
+19. K3[FeF6]                Potassium hexafluoroferrate (III)
+20. [Zn(OH)4]2-             Tetrahydroxozincate (II) ion
+21. [Co(H2O)4Cl2]Cl         Tetraaquadichlorocobalt (III) chloride
+22. [Cu (NH3 )4]+2          Tetraamminecopper (II) ion
+23. K2[SnCl6]               Potassium hexachlorostannate (IV)
+24. [Pt(NH3)4Cl2][PtCl6]    Tetraamminedichloroplatinum (IV) hexachloroplatinate (IV)
+25. [Co(NH3)6]Cl3           Hexaamminecobalt (III) chloride 
+26. [Pt(NH3)2Br4]Br2        Diamminetetrabromoplatinum (VI) bromide
+27. [Cd(H2O)4](NO3)2        Tetraaquacadmium (II) nitrate
+28. [Ag(NH3)2]+             Diamminesilver (I) ion //prblem
+29. Na3[Cu(CN)4]            Sodium tetracyanocuprate (I) 
+30. Ag4[Fe(CN)6]            Silver hexacyanoferrate (II) 
+31. [Ni(NH3)4C2O4]          Tetraammineoxalatonickel (II) 
+
+NOTE: if its processing infinetly that means that it is not moving to next char
+
+Types of Err to add:
+    1) Non Transition Metal Error
+    2) (Maybe) not balanced charge error 
+    3) (Maybe) ()*n error 
+    4) Invalid coordinate error -- done 
+    5) Unknown dentacity err
+
+To Fix:
+    * Oxidation State function
+
+To Do:
+    * Add error handling to the parser
+
+Done: 
+    * Add dentacity to each ligand -- done
+    * charge identifying instead of cation and anion of the form (n)+/- -- done 
+    [FIX] Component dies on ending cation or anion with more than 1 character -- done
+    * Naming class/Name the compound
+    [FIX] Ligand list isnt getting sorted 
+    [FIX] correct   spa cing 
+
+Idea/Scope Changes:    
+    * Learn How to parse [Cation][Anion] -- do at the end for double complex nam
+    * Scope Change - parse only 4, 6 ligaands (CN = only 4 or 6)
+    * We wrap end anion or cation in brackets and then put count
+    * Analysis Functions --> Identifies econfig (CFST) and predicts structure
+
+Naming Algorithm: -- done
+    components can be: 
+        1) Name Sphere
+        2) Get Oxidation Number
+        3) get number of lignads attached (try shoving this during lexing itselfs) -- now make it an object?
+    

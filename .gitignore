@@ -1,0 +1,10 @@
+9.2 Nomenclature and Ligands - Chemistry LibreTexts.htm
+9.2 Nomenclature and Ligands - Chemistry LibreTexts_files/
+__pycache__/
+node_modules/
+package-lock.json
+package.json
+quickJson.js
+quickrun.py
+.vscode/
+regexLexerTest.py

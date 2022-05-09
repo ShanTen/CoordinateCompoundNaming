@@ -1,0 +1,234 @@
+[
+  {
+    "Ligand": "H",
+    "Name": "Hydro",
+    "IUPACname": "Hydrido",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "OH",
+    "Name": "Hydroxy",
+    "IUPACname": "Hydroxy",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "SO4",
+    "Name": "Sulphate",
+    "IUPACname": "Sulphate",
+    "Charge": -2,
+    "Denticity": 2,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "NO3",
+    "Name": "Nitrate",
+    "IUPACname": "Nitrato",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "F",
+    "Name": "Fluoride",
+    "IUPACname": "Fluorido",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "Cl",
+    "Name": "Chloride",
+    "IUPACname": "Chlorido",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "Br",
+    "Name": "Bromoide",
+    "IUPACname": "Bromido",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "I",
+    "Name": "Iodide",
+    "IUPACname": "Iodo",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "CN",
+    "Name": "Cyanide",
+    "IUPACname": "Cyanido-C",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "CH3NC",
+    "Name": "Methylisocanide",
+    "IUPACname": "Methylisocyanide",
+    "Charge": 0,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "CO3",
+    "Name": "Carbonate",
+    "IUPACname": "Carbonato",
+    "Charge": -2,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "SCN",
+    "Name": "Thiocyanide",
+    "IUPACname": "S-Thiocyanato",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "M-SCN",
+    "Name": "Thiocyanide",
+    "IUPACname": "S-Thiocyanato",
+    "Charge": -1,
+    "IsUserDefined": true,
+    "Denticity": 1
+  },
+  {
+    "Ligand": "NCS",
+    "Name": "Isothiocyanide",
+    "IUPACname": "Thiocyanato-N",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "M-NCS",
+    "Name": "Isothiocyanide",
+    "IUPACname": "Thiocyanato-N",
+    "Charge": -1,
+    "IsUserDefined": true,
+    "Denticity": 1
+  },
+  {
+    "Ligand": "CH3CO2",
+    "Name": "Acetonate",
+    "IUPACname": "Ethanoato",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "N3",
+    "Name": "Azide",
+    "IUPACname": "Azido",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "NH_2",
+    "Name": "Imide",
+    "IUPACname": "Azanedido",
+    "Charge": -2,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "NH2",
+    "Name": "Amido",
+    "IUPACname": "Azanido",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "NH3",
+    "Name": "Ammine",
+    "IUPACname": "Ammine",
+    "Charge": 0,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "edta",
+    "Name": "Ethylene Diamine Tetraacetic Acid",
+    "IUPACname": "Ethylene Diamine Tetraacetic Acid",
+    "Charge": -4,
+    "IsUserDefined": true,
+    "Denticity": 6
+  },
+  {
+    "Ligand": "en",
+    "Name": "Ethylene Diamine",
+    "IUPACname": "Ethane(1,2) Diamine",
+    "Charge": 0,
+    "IsUserDefined": true,
+    "Denticity": 2
+  },
+  {
+    "Ligand": "H2O",
+    "Name": "Hydro",
+    "IUPACname": "Aqua",
+    "Charge": 0,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "py",
+    "Name": "Pyridine",
+    "IUPACname": "Pyridine",
+    "Charge": 0,
+    "IsUserDefined": true,
+    "Denticity": 2
+  },
+  {
+    "Ligand": "NO2",
+    "Name": "Nitro",
+    "IUPACname": "Nitrito",
+    "Charge": -1,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "CO",
+    "Name": "Carbonyl",
+    "IUPACname": "Carbonyl",
+    "Charge": 0,
+    "Denticity": 1,
+    "IsUserDefined": false
+  },
+  {
+    "Ligand": "ox",
+    "Name": "Oxalato",
+    "IUPACname": "Oxalato",
+    "Charge": -2,
+    "IsUserDefined": true,
+    "Denticity": 2
+  },
+  {
+    "Ligand": "acac",
+    "Name": "Acetylacetonate",
+    "IUPACname": "2,4-pentanediono",
+    "Charge": -1,
+    "IsUserDefined": true,
+    "Denticity": 2
+  },
+  {
+    "Ligand": "cyclen",
+    "Name": "Cyclen",
+    "IUPACname": "1,4,7,10-Tetra Azacyclododecane",
+    "Charge": -1,
+    "IsUserDefined": true,
+    "Denticity": 3
+  }
+]

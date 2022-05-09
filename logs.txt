@@ -1,0 +1,6 @@
+06:57 PM 12-03-2022 sCREW it Im going ape, no point in over thinking implementation I'll do it for basicest ligaands then add as we go on
+08:55 PM 12-03-2022 Yay thats done now, result kinda sexy ngl but like I completely ignored error handling so gotta do that then move to heirarchial parsing.
+08:59 PM 12-03-2022 Man Im done for now I will finish later
+01:34 AM 14-03-2022 Hii, I cannot sleep rn so what Im going to do is do the sq bracket parsing then maybe the other parsing too
+			might have to look at old vid
+04:41 PM 09-05-2022 Im done with basic parsing of ligands reasong for long gap was exams. 

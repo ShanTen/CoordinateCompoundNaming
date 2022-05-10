@@ -589,7 +589,7 @@ class Parser:
 ##########################################################################################
 #Final Exported Methods to interface and internal run methods
 ##########################################################################################
-def passTokens(inputChain):
+def runParser(inputChain):
     lxr = Lexer(inputChain)
     tkns,_err = lxr.makeTokens()
     lexInstance.deactivate()

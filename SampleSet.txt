@@ -9,7 +9,7 @@ K3[CoF6]
 [Ni(H2O)6](Cl)2 		    
 [Zn{en}F2] 		        
 [Cr(NH3)5(NO2)]2+
-Ba[FeBr4]       
+Ba[FeBr4]
 [Co(en)2Br2](SO4) 
 [Ag(NH3)2](Cl) 		    
 [Cu(CN)4]3-

@@ -470,11 +470,11 @@ class CoordinateCompound_Simple:
 
         lexInstance.print(f"LOL_Sorted: {ligandObjectList}")
         for l,n in ligandObjectList:
-            ligNaname = l["IUPACname"]
-            muliplier = IUPACmultipliers[n]
+            ligName = l["IUPACname"]
+            multiplier = IUPACmultipliers[n]
             if l["IsUserDefined"]:
-                muliplier = IUPACmultipliers_COMP[n]
-            Compname += f" {muliplier.capitalize()} {ligNaname}"
+                multiplier = IUPACmultipliers_COMP[n]
+            Compname += f" {multiplier.capitalize()} {ligName}"
 
         Compname += " " + mend.element(self.parseObj["CentralMetal"]).name + f" ({self.OxState})"
 
@@ -592,7 +592,7 @@ class Parser:
 def runParser(inputChain):
     lxr = Lexer(inputChain)
     tkns,_err = lxr.makeTokens()
-    lexInstance.deactivate()
+    # lexInstance.activate()
     lexInstance.print(f"Tokens: {tkns}")
     if tkns != []:
         prsr = Parser(tkns)

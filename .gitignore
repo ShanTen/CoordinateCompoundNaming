@@ -8,3 +8,5 @@ quickJson.js
 quickrun.py
 .vscode/
 regexLexerTest.py
+scraper.mjs
+parser.py
